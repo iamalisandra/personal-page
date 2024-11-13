@@ -5,68 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Example</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a href="#">Logo</a>
+                <nav class="mood">
+                    <ul class="mood_list">
+                        <li class="mood_inner">
+                            <a class="mood_link" href="#">Главная</a>
+                        </li>
+                        <li class="mood_inner">
+                            <a class="mood_link" href="#">Новости</a>
+                        </li>
+                        <li class="mood_inner">
+                            <a class="mood_link" href="#">О нас</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="logout" type="button">Выйти</button>
+            </div>
+        </header>
 
-    <header class="header">
-        <a href="#">Logo</a>
-        <nav>
-            <ul class="mood">
-                <li class="mood_link">
-                    <a href="#">Главная</a>
-                </li>
-                <li class="mood_link">
-                    <a href="#">Новости</a>
-                </li>
-                <li class="mood_link">
-                    <a href="#">О нас</a>
-                </li>
-            </ul>
-        </nav>
-        <button class="logout" type="button">Выйти</button>
-    </header>
-    <main class="info">
-        <div class="info_about">
-            <div>
-                <h1>Наше приложение</h1>
-                <span>Спортивные технологии</span>
-                <h2>Развивайте свою любовь к спорту</h2>
-                <div>
-                    <p>Внезапно, реплицированные с зарубежных источников, современные исследования лишь добавляют
-                        фракционных разногласий и обнародованы. Разнообразный и богатый опыт говорит нам, что
-                        убеждённость некоторых оппонентов способствует повышению качества форм воздействия.</p>
+        <main class="info">
+            <div class="info_wrapper">
+                <div class="info_about">
+                    <div>
+                        <h1>Наше приложение</h1>
+                        <span>Спортивные технологии</span>
+                        <h2>Развивайте свою любовь к спорту</h2>
+                        <div>
+                            <p>Внезапно, реплицированные с зарубежных источников, современные исследования лишь
+                                добавляют
+                                фракционных разногласий и обнародованы. Разнообразный и богатый опыт говорит нам, что
+                                убеждённость некоторых оппонентов способствует повышению качества форм воздействия.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="page">
+                            <li>
+                                <a class="page_inner" href="#">
+                                    <img src="" width="150" height="150" alt="Логотип">
+                                    <span>Скачать из</span>
+                                    <span>App Store</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="page_inner" href="#">
+                                    <img src="" width="150" height="150" alt="Логотип">
+                                    <span>Скачать из</span>
+                                    <span>Google Play</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="info_about">
+                    <img src="" width="150" height="150" alt="Картинка">
                 </div>
             </div>
-            <div>
-                <ul class="page">
-                    <li>
-                        <a href="#">
-                            <img src="" width="150" height="150" alt="Логотип">
-                            <span>Скачать из</span>
-                            <span>App Store</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="" width="150" height="150" alt="Логотип">
-                            <span>Скачать из</span>
-                            <span>Google Play</span>
-                        </a>
-                    </li>
-                </ul>
+        </main>
 
+        <footer class="footer">
+            <div class="container">
+                <p class="copy">&copy;&nbsp;2024 все права защищены</p>
             </div>
-        </div>
-        <div class="info_about">
-            <img src="" width="150" height="150" alt="Картинка">
-        </div>
-    </main>
-    <footer>
-        <span>© 2024 все права защищены</span>
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>
