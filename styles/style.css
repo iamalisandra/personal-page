@@ -100,6 +100,11 @@
     gap: 42px;
 }
 
+.sport_tex {
+
+    text-transform: uppercase;
+}
+
 .pic_sport {
 
     width: 438px;
@@ -126,12 +131,21 @@
     flex-direction: row;
     gap: 10px;
     width: 100%;
-    padding: 0;
+    padding: 10px;
+    
 
     list-style: none;
     color: #ffffff;
     background-color: black;
     border-radius: 3%;
+}
+
+.page_inner_prop {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
 }
 
 .page_innertitle {
@@ -140,6 +154,8 @@
     line-height: 1.5;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-align: right;
     
 
 }
@@ -149,6 +165,7 @@
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
+    text-align: right;
 
 }
 
