@@ -72,6 +72,10 @@
     color: #F0DFDF;
 }
 
+.mood_link:hover {
+    color: rgb(233, 141, 187);
+}
+
 .logout {
     margin-left: 400px;
     background-color: transparent;
@@ -100,9 +104,26 @@
     gap: 42px;
 }
 
+.title_m {
+    font-size: 48px;
+    font-weight: normal;
+}
+
 .sport_tex {
 
     text-transform: uppercase;
+}
+
+.title_n {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.par {
+    margin: 0;
+    margin-bottom: 52px;
 }
 
 .pic_sport {
@@ -126,32 +147,52 @@
     list-style: none;
 }
 
+.page li {
+
+    max-width: 50%;
+    width: 100%;
+
+}
+
 .page_inner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 10px;
-    width: 100%;
-    padding: 10px;
+    /* width: 100%; */
+    padding: 10px 24px;
     
 
     list-style: none;
     color: #ffffff;
     background-color: black;
     border-radius: 3%;
+
+    text-decoration: none;
+}
+
+.page_inner picture {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .page_inner_prop {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0;
+    gap: 10px;
 
 }
 
 .page_innertitle {
 
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
@@ -163,7 +204,7 @@
 .page_innertext {
 
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
     font-weight: 400;
     text-align: right;
 
